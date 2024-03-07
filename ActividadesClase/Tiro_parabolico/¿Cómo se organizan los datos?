@@ -1,0 +1,7 @@
+1. En el 5_manejo_de_condiconales.c se encuentra los primeros pasos para calcular el tiro usando runge-kutta
+2. En 6_manejo_de_de_switch_case.c se explica como manejar los casos para generar distintos archivos dependiendo de lo que necesite cada usuario
+3. En 7_rutinas_funciones.c se acortan los procesos de cálculo de algunas formulas del tiro con funciones y una rutina para geenerar los archivos en cada caso
+4. En analisis_de_conservacio_energía.c se observa los diferentes errores relativos de energía con un error de 0.1% para una energía incial de 98.5 J
+5. soluion_analiticio_tiro_parabolico.c se usan las funciones predeterminadas para calcular las diferentes variables del tiro parabólico
+El resto son archivos de graficas y los arvivos base con el tiro parabolico donde en la primera columna es tiempo, en la segunda velocidad_y, tercera posicion_x y en la 4 posicion_y
+Y también hay un archivo con la erergía para cada punto y su error relativo, donde la primera columna es el tiempo
