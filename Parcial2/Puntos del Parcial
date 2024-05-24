@@ -1,0 +1,15 @@
+1. (33 puntos) Se le suministra el codigo  ́ 13 lectura de archivo de parametros con errores.c en version .pdf.  ́
+Por favor corrija todos los Warning y errors que salen cuando intenta compilar el programa y aquellos
+errores de sintaxis y logicos (relacionados con sintaxis) que usted detecte. Use comentarios sobre el doc-  ́
+umento .pdf para senalar las correcciones que usted hizo e impl  ̃ ementelas en su propia versi  ́ on del c  ́ odigo,  ́
+entregue el .pdf con los comentarios de los errores y la version corregida del c  ́ odigo. Tenga en cuenta que  ́
+el codigo contiene 22 errores y que se suministra todo lo necesario para que corra el c  ́ odigo una vez est  ́ e ́
+corregido.
+2. (34 puntos) Genere una distribucion de 1000 puntos aleatoria dentro de un cuadrado de dimensiones 100 x  ́
+100. Use el algoritmo de linked list, descrito en el cap ́ıtulo 4 del libro Smoothed particle hydrodynamics
+de Liu and Liu (2003) para encontrar los N vecinos que se encuentran a una distancia h desde punto
+cualquiera perteneciente a la distribucion ya creada. Entregue una gr  ́ afica que muestre la distribuci  ́ on de  ́
+puntos, el punto de interes y sus respectivos vecinos.  ́
+3. (33 puntos) Realice la lectura de las secciones 10.1 a la 10.6 y el cap ́ıtulo 12 del libro de Deitel. Con esa
+informacion elija codificar su propia versi  ́ on de un programa que implemente una lista ligada, pila, cola o  ́
+arbol usando estructuras de datos autoreferenciadas.  ́
