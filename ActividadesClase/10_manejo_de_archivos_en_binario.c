@@ -27,7 +27,7 @@ Particulas *part, *part2;
 int contador_de_lineas(char *infile);
 
 //funcion principal
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]) 
 {
     int i, nParticulas; 
     double dummy; //Se almacena basura

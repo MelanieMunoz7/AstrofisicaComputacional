@@ -114,7 +114,7 @@ int calcula_distancia(const int nPuntos, double x[], double y[], double z[], con
 	      distancia[j] = sqrt( (x[i]-x[j])*(x[i]-x[j]) + (y[i]-y[j])*(y[i]-y[j]) + (z[i]-z[j])*(z[i]-z[j]) );
 	    }
 	  else
-	    distancia[j] = 0.0;
+	    distancia[j] = 0.0; //Ojito esto evita que el codigo se caiga
 	  
 	}
       // imprime las distancias a puntoConVecinos
@@ -186,4 +186,4 @@ int calcula_primeros_vecinos_burbuja(const int nPuntos, double distancia[], cons
   return 0;
 }
 
-// Nota : graficar con splot [0:100splot [0:100][0:100][0:100] "posiciones.dat" u 2:3:4:(sprintf("%d", $1)) w labels point ps 3 pt 7 lc 1 offset char 1,1 t "puntos","vecinos.dat" u 2:3:4 w p ps 2 pt 7 lc 3 t "primeros vecinos","posiciones.dat" every ::0::0 u 2:3:4 w p ps 2 pt 7 lc 7 t "punto de interes"][0:100][0:100] "posiciones.dat" u 2:3:4:(sprintf("%d", $1)) w labels point ps 3 pt 7 lc 1 offset char 1,1 t "puntos","vecinos.dat" u 2:3:4 w p ps 2 pt 7 lc 3 t "primeros vecinos","posiciones.dat" every ::0::0 u 2:3:4 w p ps 2 pt 7 lc 7 t "punto de interes"
+// Nota : graficar con splot [0:100][0:100][0:100] "posiciones.dat" u 2:3:4:(sprintf("%d", $1)) w labels point ps 3 pt 7 lc 1 offset char 1,1 t "puntos","vecinos.dat" u 2:3:4 w p ps 2 pt 7 lc 3 t "primeros vecinos","posiciones.dat" every ::0::0 u 2:3:4 w p ps 2 pt 7 lc 7 t "punto de interes"
