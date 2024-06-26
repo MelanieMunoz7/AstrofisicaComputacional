@@ -1,0 +1,7 @@
+1. Recuerde que estos códigos requieren crear una caperta llamada output_potentials para guardar cada instante de tiempo 
+2. Dentro de la carpeta output_potentials debe crear un archivo con el listado de estado. Y en ese archivo eliminar la fila que contentaga el nombre propio del archivo 
+3. Para crear el archivo use desde la terminal ls>nombre_del_archivo.dat
+
+Los archivos tienen: 
+Dos galaxias que son galaxias.gad y galaxias.gad
+Y dos códigos en C, uno que usa potenciales que es la solución análitica y uno que es una simulacion
