@@ -1,0 +1,4 @@
+En este caso se usa un código de SPH en C y en python, en el cual se buscan vecinos a través de las distancias. Para este método es mucho más efectivo el linked list (Que se desarollo en el parcial 3). Pero el código de interés y el que realmente se desea correr 
+sph.c
+
+*Nota*: Para correr el código de SPH es necesario crear una carperta llamada output y adentro guardar un el archivo graficas.gad
